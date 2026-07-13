@@ -1,6 +1,6 @@
 from pydantic import BaseModel, ValidationError
-from didit.schemas.error import AuthenticationError
-from didit.schemas.session import CreateSessionRequest, CreateSessionResponse
+from pydidit.schemas.error import AuthenticationError
+from pydidit.schemas.session import CreateSessionRequest, CreateSessionResponse
 from httpx import AsyncClient, Response
 from urllib.parse import urljoin
 

@@ -1,5 +1,5 @@
 [project]
-name = "didit"
+name = "pydidit"
 version = "0.1.0"
 description = ""
 authors = [

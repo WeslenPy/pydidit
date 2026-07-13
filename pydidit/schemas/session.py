@@ -1,6 +1,6 @@
 from enum import Enum
 from pydantic import BaseModel, EmailStr,HttpUrl,Base64Str
-from didit.schemas.common import (CallbackMethodEnum, ContactDetails,
+from pydidit.schemas.common import (CallbackMethodEnum, ContactDetails,
                                   ExpectedDetails, LanguageEnum, 
                                   SandboxScenarioEnum, StatusEnum)
 
