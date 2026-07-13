@@ -48,14 +48,14 @@ class StatusEnum(str,Enum):
     KYC_EXPIRED = "Kyc Expired"
     IN_REVIEW = "In Review"
     
-class ContactDetailsEnum(BaseModel):
+class ContactDetails(BaseModel):
     email: EmailStr | None = None #Email address (optional)
     phone: str | None = None #Phone number (optional)
     email_lang: LanguageEnum | None = None #Email language (optional)
     send_notification_emails:bool | None = None #Whether to send notification emails to the user. (optional)
     
     
-class ExpectedDetailsEnum(BaseModel):
+class ExpectedDetails(BaseModel):
     first_name: str | None = None #First name (optional)
     last_name: str | None = None #Last name (optional)
     date_of_birth: date | None = None #Date of birth (optional)
