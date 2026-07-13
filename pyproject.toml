@@ -1,5 +1,5 @@
 [project]
-name = "didit-sdk"
+name = "didit"
 version = "0.1.0"
 description = ""
 authors = [
