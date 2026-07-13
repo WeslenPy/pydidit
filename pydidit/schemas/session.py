@@ -40,5 +40,4 @@ class CreateSessionResponse(BaseModel):
     workflow_id: str  #Stable workflow identifier the session runs on.
     workflow_version: str | int #Published workflow version the session was pinned to at creation.
     
-    
-    # {'session_id': 'eaba6ece-de0b-45b3-8438-b67e28df1dcb', 'session_number': 4, 'session_token': 'BJ_jHJ_Mvu64', 'url': 'https://verify.didit.me/session/BJ_jHJ_Mvu64', 'vendor_data': None, 'metadata': None, 'status': 'Not Started', 'callback': 'https://example.com/callback', 'workflow_id': 'eb1b299a-8457-4e97-aae7-f11f972f8bbc', 'workflow_version': 1}
+  
