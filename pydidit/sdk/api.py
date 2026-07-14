@@ -35,7 +35,7 @@ class DiditAPI:
             return schema.model_validate(response_json, strict=False)
         except ValidationError as e:
             error = response_json.get("detail", e.errors())
-            raise AuthenticationError(detail=error, status_code=response.status_code)
+            return  AuthenticationError(detail=error, status_code=response.status_code)
         
     async def create_session(self, request: CreateSessionRequest)->CreateSessionResponse|AuthenticationError:
         
